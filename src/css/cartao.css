@@ -1,0 +1,133 @@
+.cartao-pokemon{
+    display:  none;
+    background-color: rgb(140, 0, 255);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+   
+}
+
+.cartao-pokemon .cartao-topo{
+    padding: 30px 40px 0;
+}
+
+.cartao-pokemon .nome{
+    margin-bottom: 5px;
+}
+
+.cartao-pokemon .tipo{
+    font-size: 12px;
+    background-color: aliceblue;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cartao-pokemon .detalhes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.cartao-pokemon .cartao-imagem{
+    width: 350px;
+    height: 350px;
+}
+
+.cartao-pokemon img{
+    max-height: 100%;
+}
+
+
+.cartao-pokemon .cartao-informacoes{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 80px 30px 50px;
+    margin-top: -70px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.cartao-pokemon .cartao-informacoes h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6B727A;
+}
+
+.cartao-pokemon .cartao-informacoes .status, .cartao-pokemon .cartao-informacoes .habilidades{
+    padding: 0 10px;
+    width: 180px;
+}
+
+.cartao-pokemon .cartao-informacoes .habilidades ul li, .cartao-pokemon .cartao-informacoes .status ul li{
+    border-bottom: 1px solid #C3C4C5;
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.cartao-pokemon.aberto{
+    display: block;
+}
+
+
+.tipo-fogo{
+    background: linear-gradient(to bottom right, #ffa127,rgb(243, 239, 14)) ;
+}
+.tipo-eletrico{
+    background: linear-gradient(to bottom right, #ffcf31, rgb(221, 19, 19));
+}
+.tipo-agua{
+    background: linear-gradient(to bottom right, #76befe,rgb(243, 239, 30)) ;
+}
+
+.tipo-folha{
+    background: linear-gradient(to bottom right, #49D080,rgb(97, 156, 233)) ;
+}
+
+.tipo-trevas{
+    background: linear-gradient(to bottom right, #e277f7,rgb(66, 11, 71)) ;
+}
+
+.tipo-dragao{
+    background: linear-gradient(to bottom right, #dae8e9,rgb(221, 155, 12)) ;
+}
+
+.cartao-topo .bgcolor-pikachu:hover{
+    transform: scale(1.08);
+    box-shadow:0 3px 10px 0 #c0ca33;
+    box-shadow:0 3px 10px 0 #c0ca33;
+    background-color: #e6f512;
+}
+
+.cartao-topo .bgcolor-bulbasaur:hover{
+    transform: scale(1.08);
+    box-shadow:0 3px 10px 0 #c0ca33;
+    box-shadow:0 3px 10px 0 #c0ca33;
+    background-color: #329e37;
+}
+.cartao-topo .bgcolor-charmander:hover{
+    transform: scale(1.08);
+    box-shadow:0 3px 10px 0 #c0ca33;
+    box-shadow:0 3px 10px 0 #c0ca33;
+    background-color: #e98528;
+}
+.cartao-topo .bgcolor-gyarados:hover{
+    transform: scale(1.08);
+    box-shadow:0 3px 10px 0 #c0ca33;
+    box-shadow:0 3px 10px 0 #c0ca33;
+    background-color: #12c8f5;
+}
+.cartao-topo .bgcolor-gengar:hover{
+    transform: scale(1.08);
+    box-shadow:0 3px 10px 0 #c0ca33;
+    box-shadow:0 3px 10px 0 #c0ca33;
+    background-color: #a231c4;
+}
+.cartao-topo .bgcolor-dragonite:hover{
+    transform: scale(1.08);
+    box-shadow:0 3px 10px 0 #c0ca33;
+    box-shadow:0 3px 10px 0 #c0ca33;
+    background-color: #f3bd0d;
+}

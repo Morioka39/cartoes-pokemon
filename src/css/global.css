@@ -1,0 +1,20 @@
+body{
+    font-family: poppins, sans-serif;
+}
+
+/*centralizando o filho do main  com o display:flex*/
+/*propiedades do flex, align: alinhamento verti. e o justy.: alinha. horiz.*/
+main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dadfe8;
+}
+
+/*propiedade Gap da um espaçamento entre os filhos com uma linha invisivel roxa*/
+.pokedex{
+    display: flex;
+    gap: 30px;
+    padding: 30px 0;
+}
